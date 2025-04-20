@@ -5,7 +5,7 @@ module.exports = {
   entry: './src/index.js',
   mode: 'development',
   devServer: {
-    port: 3001,
+    port: 3002,
     historyApiFallback: true,
   },
   output: {
@@ -33,20 +33,24 @@ module.exports = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: 'shared',
+      name: 'app_store',
       filename: 'remoteEntry.js',
       exposes: {
-        './fr.json': './src/languages/fr.json',
-        './genericInput': './src/common-components/genericInput',
-        
+        './account': './src/services/account',
+        './store': './src/store/index',
+        './regular-expressions': './src/utils/regular-expressions/index',
+        './utils': './src/utils/index',
+        './store/selectors': './src/store/selectors',
       },
       shared: {
         react: { singleton: true, requiredVersion: '^18.0.0' },
         'react-dom': { singleton: true, requiredVersion: '^18.0.0' },
-        '@mui/material': { singleton: true, requiredVersion: '^5.0.0' },
-        '@emotion/react': { singleton: true, requiredVersion: '^11.0.0' },
-        '@emotion/styled': { singleton: true, requiredVersion: '^11.0.0' },
-        
+
+        'randexp': { singleton: true, requiredVersion: '^0.5.3' },
+        'axios': { singleton: true, requiredVersion: '^1.8.4' },
+        'redux-saga': { singleton: true, requiredVersion: '^1.3.0' },
+        '@reduxjs/toolkit': { singleton: true, requiredVersion: '^2.7.0' },
+        'redux-persist': { singleton: true, requiredVersion: '^6.0.0' },
       }
     }),
     new HtmlWebpackPlugin({

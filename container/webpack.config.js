@@ -23,7 +23,8 @@ module.exports = {
     new ModuleFederationPlugin({
       name: 'container',
       remotes: {
-        shared: 'shared@http://localhost:3001/remoteEntry.js'
+        shared: 'shared@http://localhost:3001/remoteEntry.js',
+        app_store: 'app_store@http://localhost:3002/remoteEntry.js'
       },
       shared: {
         react: { singleton: true, requiredVersion: '^18.0.0' },

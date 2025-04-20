@@ -1,11 +1,12 @@
+import { createAccountService } from 'app_store/account';
+import * as re from 'app_store/regular-expressions';
+import OB from 'app_store/store';
 import React from 'react';
-import { createAccountService } from 'shared/account';
 import OBJ from 'shared/fr.json';
-import OB from 'shared/store';
-const selectors = await import("shared/store/selectors");
+const selectors = await import("app_store/store/selectors");
 const GenericInput = React.lazy(() => import('shared/genericInput'));
 function App() {
-  console.log(OBJ, createAccountService, OB, selectors)
+  console.log( re)
   return (
     <React.Suspense fallback={<div>Loading...</div>}>
       <GenericInput />

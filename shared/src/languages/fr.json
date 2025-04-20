@@ -1,0 +1,1081 @@
+
+{
+  "VEHICLE_CHASSIS_LABEL":"Vehicle Chassis",
+  "VEHICLE_ENGINE_LABEL":"Vehicle Engine",
+  "VEHICLE_RC_PHOTO_LABEL":"Vehicle RC Photo",
+  "VEHICLE_POLLUTION_PHOTO_LABEL":"Vehicle Pollution Certificate Photo",
+  "VEHICLE_POLLUTION_RENEWABLE_DATE_LABEL":"Vehicle Pollution Certificate Renewable Date",
+  "VEHICLE_POLLUTION_NUMBER_LABEL":"Vehicle Pollution Certificate No",
+  "VEHICLE_PERMIT_NUMBER_LABEL":"Vehicle Permit No",
+  "VEHICLE_PERMIT_RENEWABLE_DATE_LABEL":"Vehicle Permit Renewable Date",
+  "VEHICLE_PERMIT_PHOTO_LABEL":"Vehicle Permit Photo",
+  "PRESENT_ADDRESS_LABEL":"Present Address",
+  "MANUFACTURING_YEAR_LABEL":"Manufacturing Year",
+  "PERMANENT_ADDRESS_LABEL":"Permanent Address",
+  "DRIVER_NAME_LABEL":"Driver Name",
+  "VEHICLE_REGISTRATION_LABEL":"Vehicle Registration No",
+  "DRIVER_MOBILE_LABEL":"Driver Mobile Number",
+  "DRIVER_LICENSE_LABEL":"Driver License Number",
+  "DRIVER_AADHAR_CARD_LABEL":"Driver Aadhar Card Number",
+  "BROWSE_FILES_LABEL":"Browse Files",
+  "ADMIN":"Admin",
+  "VENDOR":"Vendor",
+  "EMPLOYEE":"Employee",
+"FORGOT_PASSWORD":"Forgot Password?",
+"FORGOT_PASSWORD_SUBHEADING":"No worries, we'll send you reset password instructions!",
+  "RETURN_TO":"Redirect To Home",
+  "LOGIN_WITH_EMAIL_AND_PASSWORD": "Login with Email & Password!",
+  "LOGIN": "Login!",
+  "LOGIN_WITH_MOBILE": "Login with Mobile!",
+  "VERIFY_OTP": "Verify OTP",
+  "SEND_EMAIL_LABEL": "Send Email",
+  "SEND_OTP": "Send OTP",
+  "REGISTER_AND_LOGIN": "Register / Login",
+  "PERSON_NAME_LABEL":"Person Name",
+  "COMPANY_TYPE_LIST": [
+    {
+      "value": "Proprietorship",
+      "label": "Proprietorship"
+    },
+    {
+      "value": "Partnership Firm",
+      "label": "Partnership Firm"
+    },
+    {
+      "value": "Pvt. Ltd. Company",
+      "label": "Pvt. Ltd. Company"
+    },
+    {
+      "value": "LLP",
+      "label": "LLP"
+    }
+  ],
+"BACK_LABEL":"Back",
+"NEXT_LABEL":"Next",
+"AVAILABEL_PAYMENT_METHOD_LIST":["Credit Card / Debit Card", "Net Banking", "Bank Transfer", "Unified Payment Interface (UPI)"],
+"STEPPER_TITLE_LABEL" : {
+  "0": "Please fill the customer details",
+  "1": "Choose your payment method",
+  "2": "Review your order"
+},
+  "COMPANY_REGISTRATION_FORM_LABEL": "Company Registration",
+  "CHOOSE_SUBSCRIPTION_LABEL": "Choose Subscription Plan",
+  "COMPANY_DETAILS_LABEL": "Your Company Details",
+
+  "COMPANY_NAME_LABEL": "Company Name",
+  "CONTACT_PERSON_LABEL": "Contact Person",
+  "COMPANY_EMAIL_LABEL": "Company Email",
+  "COMPANY_MOBILE_LABEL": "Company Mobile",
+  "PINCODE_LABEL": "Pincode",
+  "STATE_LABEL": "State",
+  "CITY_LABEL": "City",
+  "LOCALITY_LABEL": "Locality",
+  "DISTRICT_LABEL": "District",
+  "POSI_OFFICE_LABEL": "Post Office",
+  "LANDMARK_LABEL": "Landmark",
+  "ADDRESS_LABEL": "Address",
+  "COMPANY_TYPE_LABEL": "Company Type",
+  "INDIVIDUAL_PAN_NO_LABEL": "PAN No",
+  "FIRM_PAN_NO_LABEL": "Firm PAN No",
+  "PAN_CIN_NO_LABEL":"PAN / CIN No.",
+  "CIN_NO_LABEL": "CIN No",
+  "INC_NO_LABEL": "Incorporation No",
+  "GST_NO_LABEL": "GST No",
+  "COMPANY_WEBSITE_LABEL": "Company Website",
+  "IBA_APPROVAL_LABEL": "IBA Approval",
+  "IBA_APPROVAL_LIST": [
+    { "value": "Not Approved", "label": "Not Approved" },
+    { "value": "Approved", "label": "Approved" }
+  ],
+  "IBA_APPROVAL_CODE_LABEL": "IBA Approval Code",
+  "IBA_EXPIRY_LABEL": "IBA Expiry",
+  "IBA_APPROVAL_CODE_VALIDITY_LABEL": "IBA Code valid Till",
+  "REGISTRATION_COMPLETE_LABEL": "Registration Complete",
+  "MOBILE_NUMBER_LABEL": "Mobile Number",
+  "EMAIL_ADDRESS_LABEL": "Email Address",
+  "OTP_VERIFICATION_CODE_LABEL": "OTP Verification Code",
+  "OTP_SUBHEADING_LABEL":"We have sent a verification code to your mobile number",
+  "RESEND_CODE_LABEL":"Resend Code",
+  "PASSWORD_LABEL": "Password",
+  "PARENT_ROLE_LABEL": "Parent Role",
+  "ROLE_TYPE_LABEL": "Role Type",
+  "ROLE_NAME_LABEL": "Role Name",
+  "VEHICLE_COMPANY_NAME_LABEL": "Vehicle Company Name",
+  "VEHICLE_MODEL_YEAR_LABEL": "Vehicle Model Year",
+  "VEHICLE_TYPE_NAME_LABEL": "Vehicle Type Name",
+  "VEHICLE_TYPE_LABEL": "Vehicle Type",
+  "VEHICLE_LOAD_SIZE_NAME_LABEL": "Vehicle Load Size Name",
+"DID_NOT_RECEIVE_LABEL":"Didn't receive the code?",
+  "VEHICLE_MODEL_NAME_LABEL": "Vehicle Model Name",
+  "COMPANY_COUNTRY_NAME_LABEL": "Company Country Name",
+  "DESCRIPTION_LABEL": "Description",
+  "VEHICLE_MAX_CAPACITY_LABEL": "Max Capacity",
+  "MODULE_NAME_LABEL": "Module Name",
+  "FEATURE_NAME_LABEL": "Feature Name",
+  "BRANCH_OR_FRANCHISE_NAME_LABEL": "Branch/Franchise Name",
+  "WEBSITE_ADDRESS_LABEL": "Website Address",
+  "GST_NUMBER_LABEL": "GST Number",
+  "REG_MOBILE_NUMBER_LABEL": "Reg. Mobile Number",
+  "BRFR_TYPE_LABEL": "Entity Type",
+  "BRFR_TYPE_LIST": [
+    {
+      "value": "Branch",
+      "label": "Branch"
+    },
+    {
+      "value": "Franchise",
+      "label": "Franchise"
+    }
+  ],
+  "ACCOUNT_TYPE_LIST": [
+    {
+      "value": "Bank Account",
+      "label": "Bank Account"
+    },
+    {
+      "value": "UPI",
+      "label": "UPI"
+    },
+    {
+      "value": "Upload QR Code",
+      "label": "Upload QR Code"
+    }
+  ],
+
+  "SELECT_COMPANY_LABEL": "Select Company",
+  "SELECT_BANK_LABEL": "Select Bank",
+  "ACCOUNT_HOLDER_NAME_LABEL": "Account Holder Name",
+  "ACCOUNT_NUMBER_LABEL": "Account Number",
+  "ACCOUNT_IFSC_LABEL": "Account IFSC Code",
+  "VPA_LABEL": "VPA/UPI",
+  "VPA_SUFFIX_LABEL": "VPA Suffix",
+  "ACCOUNT_TYPE_LABEL": "Account Type",
+  "SHIFTING_LABEL": "Shifting",
+  "OWNER_NAME_LABEL": "Owner Name",
+  "ROLE_LABEL": "Add Role",
+  "ADD_VEHICLE_COMPANY_LABEL": "Add Vehicle Company",
+  "VEHICLE_COMPANY_LABEL": "Vehicle Company",
+  "VEHICLE_INSURANCE_COMPANY_LABEL": "Add Vehicle Insurance Company",
+  "VEHICLE_INSURANCE_COMPANY_NAME_LABEL": "Vehicle Insurance Company",
+  "VEHICLE_INSURANCE_COMPANY_CONTACT_LABEL": "Vehicle Insurance Company Contact",
+  "VEHICLE_INSURANCE_COMPANY_ADDRESS_LABEL": "Vehicle Insurance Company Address",
+  "ADD_VEHICLE_TYPE_LABEL": "Add Vehicle Type",
+  "VEHICLE_LOAD_SIZE_LABEL": "Add Vehicle Load Size",
+  "VEHICLE_MODEL_LABEL": "Vehicle Model",
+  "ADD_VEHICLE_MODEL_LABEL": "Add Vehicle Model",
+  "VEHICLE_ACCESSORIES_LABEL": "Add Vehicle Accessories",
+  "VEHICLE_COLOR_LABEL": "Add Vehicle Color",
+  "VEHICLE_ACCESSORIES_NAME_LABEL": "Vehicle Accessories",
+  "VEHICLE_COLOR_NAME_LABEL": "Vehicle Color",
+  "MODULE_LABEL": "Add Module",
+  "FEATURE_LABEL": "Add Feature",
+  "BRFR_LABEL": "Add Branch Or Franchise",
+  "FOLLOW_UP_DATE_LABEL": "Next Follow Up Date",
+  "SURVEY_DATE_LABEL": "Survey Date",
+  "FOLLOW_UP_LABEL": "Next Follow Up",
+  
+  "FOLLOW_UP_BY_LABEL": "Follow Up By",
+  "SURVEYED_BY_LABEL": "Surveyed By",
+  "COMMENT_LABEL":"Commnent",
+  "UPDATE_ROLE_LABEL": "Update Role",
+  "SUBMIT_LABEL": "Submit",
+  "PARENT_MODULE_NAME_LABEL": "Parent Module Name",
+  "UPDATE_MODULE_LABEL": "Update Module",
+  "UPDATE_FEATURE_LABEL": "Update Feature",
+  "ADD_EMPLOYEE_ENROLL_LABEL": "Add Employee",
+  "ADD_SIGNATURE_LABEL": "Add Signature",
+  "SIGNATURE_TYPE_LABEL": "Choose Signature Type",
+  "CHANGE_THEME_LABEL":"Change Theme",
+  "REFER_N_EARN_LABEL":"Refer & Earn",
+  "LOGOUT_LABEL":"Log out",
+  "THEME_VARIENTS_LIST":[
+    {
+      "label": "Default",
+      "value": "default"
+    },
+    {
+      "label": "Primary",
+      "value": "primary"
+    },
+    {
+      "label": "Graceful",
+      "value": "graceful"
+    },
+    {
+      "label": "Secondary",
+      "value": "secondary"
+    }
+  ],
+  "SIGNATURE_TYPE_LIST": [
+    {
+      "value": "Digital Signature",
+      "label": "Digital Signature"
+    },
+    {
+      "value": "Upload Signature",
+      "label": "Upload Signature"
+    }
+  ],
+  "SET_SURVEY_LABEL":"Set Survey",
+  "ITEM_LIST_LABEL":"Item List",
+  "VIEW_DETAILS_LABEL":"View Details",
+  "SIGNATURE_LABEL": "Signature Label",
+  "ADD_PLAN_LABEL": "Add Plan",
+  "ADD_COMPANY_CONTACTS_LABEL": "Add Company Contacts",
+  "ADD_COMPANY_DOCUMENTS_LABEL": "Add Company Documents",
+  "ADD_GOVT_REGISTRATION_LABEL": "Add Govt Registration",
+  "ADD_DOCUMENT_FOOTER_CONTENT_LABEL": "Add Document Footer Content",
+  "ADD_VEHICLE_LABEL": "Add Vehicle",
+  "ADD_DRIVER_LABEL": "Add Driver",
+  "UPDATE_PLAN_LABEL": "Update Plan",
+  "UPDATE_LABEL": "Update",
+  "UPDATE_EMPLOYEE_ENROLL_LABEL": "Update Employee",
+  "PROFILE_LABEL": "Company Profile",
+  "ENQUIRY_DETAILS_LABEL":"Enquiry Details",
+  "QUOTATION_DETAILS_LABEL":"Quotation Details",
+  "UPDATE_QUOTATION_DETAILS_LABEL":"Update Quotation Details",
+  "UPDATE_ENQUIRY_DETAILS_LABEL":"Update Enquiry Details",
+  "BASIC_DETAILS_LABEL": "Company Basic Details",
+  "ADDRESS_DETAILS_LABEL": "Company Address Details",
+  "REGISTRATION_DETAILS_LABEL": "Company Registration Details",
+  "SIGNATURE_DETAILS_LABEL": "Company Signature Details",
+  "PUNCH_LINE_LABEL": "Company Punch Line",
+  "UPDATE_DETAILS_LABEL": "Update Details",
+  "ADD_BANK_LABEL": "Add Bank",
+  "CREATE_QUOTATION_LABEL":"Create Quotation",
+  "CREATE_PASSWORD_LABEL":"Create Password",
+  "GENERATE_SURVEY_LABEL":"Generate Survey",
+  "FOLLOW_UPS_LABEL":"Follow Ups",
+  "PACKING_MATERIAL_LABEL":"Packing Material",
+  "BANK_NAME_LABEL": "Bank Name",
+  "ADD_ACCOUNT_LABEL": "Add Account",
+  "ADD_PAYMENT_TYPE_LABEL": "Add Payment Type",
+  "ADD_PAYMENT_MODE_LABEL": "Add Payment Mode",
+  "ADD_UNIT_TYPE_LABEL": "Add Unit Type",
+  "ADD_ENQUIRY_LABEL": "Add Enquiry",
+  "ADD_QUOTATION_LABEL": "Add Quotation",
+  "ADD_SHIFTING_TYPE_LABEL": "Add Shifting Type",
+  "ADD_FLOOR_LABEL": "Add Floor",
+  "PAYMENT_TYPE_LABEL": "Payment Type Name",
+  "SHIFTING_TYPE_LABEL": "Shifting Type Name",
+  "FLOOR_LABEL": "Floor Name",
+  "PAYMENT_MODE_LABEL": "Payment Mode Name",
+  "UNIT_TYPE_LABEL": "Unit Type Name",
+  "ADD_SERIAL_SETTING_LABEL": "Add Serial Number Setting",
+  "ADD_TEMPLATE_LABEL": "Add Template",
+  "ASSIGN_TEMPLATE_LABEL": "Assign Template",
+  "SERIAL_NUMBER_LABEL": "Serial No.",
+  "LISTING_DATE_LABEL": "Listing Date",
+  "CHOOSE_ENTITY_LABEL": "Choose Entity",
+  "CHOOSE_SUBMODULE_LABEL": "Choose Submodule",
+  "CHOOSE_BRANCH_OR_FRANCHISE_LABEL":"Choose Branch/Franschise",
+  "CHOOSE_MODULE_LABEL": "Choose Module",
+  "PREFIX_LABEL": "Prefix",
+  "PREVIEW_LABEL":"Preview",
+  "TEMPLATE_NAME_LABEL":"Template Name",
+  "STATUS_LIST":[{ "value": "COMPLETED", "label": "COMPLETED" }],
+"ENTITY_TYPE_LIST": [
+    {
+      "label": "Head Office",
+      "value": "Head Office"
+    },
+    {
+      "label": "Branch",
+      "value": "Branch"
+    },
+    {
+      "label": "Franchise",
+      "value": "Franchise"
+    }
+  ],
+  "INITIAL_VALUE_LABEL": "Initial Value",
+  "TEMPLATE_VERSION_LABEL": "Template Version",
+  "TEMPLATE_MODULE_LIST":[
+    "quotation",
+    "money receipt","vehicle condition","bilty","packing list","invoice", "item list", "noc letter"
+  ],
+  "SHIFTING_LIST": [
+    {
+      "value": "Local",
+      "label": "Local"
+    },
+    {
+      "value": "Domestic",
+      "label": "Domestic"
+    },
+    {
+      "value": "International",
+      "label": "International"
+    }
+  ],
+  "BILLED_BY_LIST": [
+    {
+      "value": "By Individual",
+      "label": "By Individual"
+    },
+    {
+      "value": "By Company",
+      "label": "By Company"
+    }
+  ],
+  "PARTY_APPROVAL_AUTHORITY_LIST": [
+    {
+      "value": "Admin",
+      "label": "Admin"
+    },
+    {
+      "value": "HR",
+      "label": "HR"
+    },
+    {
+      "value": "Concern Person",
+      "label": "Concern Person"
+    }
+  ],
+  "ALL_PERMISSIONS_LABEL":"Allow Permissions",
+  "PARTY_APPROVAL_AUTHORITY_LABEL": "Party Approval Authority",
+  "BILLED_BY_LABEL": "Billed By",
+  "SHIFTING_LUGGAGE_LABEL": "Shifting Luggage",
+  "PARTY_NAME_LABEL": "Party Name",
+  "PARTY_MOBILE_LABEL": "Party Mobile",
+  "PARTY_AUTHORITY_MOBILE_LABEL": "Party Authority Mobile",
+  "PARTY_AUTHORITY_PERSON_LABEL": "Party Authority Person",
+  "PARTY_PINCODE_LABEL": "Party Pincode",
+  "PARTY_STATE_LABEL": "Party State",
+  "PARTY_CITY_LABEL": "Party City",
+  "PARTY_LOCALITY_LABEL": "Party Locality",
+  "PARTY_ADDRESS_LABEL": "Party Address",
+  "PARTY_COMPANY_GST_LABEL": "Party Company GST",
+  "PARTY_EMP_NAME_LABEL": "Party Employee Name",
+  "PARTY_EMP_DESIGNATION_LABEL": "Party Employee Designation",
+  "PARTY_EMP_MOBILE_LABEL": "Party Employee Mobile",
+  "PARTY_COMPANY_ADDRESS_LABEL": "Party Company Address",
+  "PARTY_COMPANY_LABEL": "Party Company",
+  "DA_ADDRESS_LABEL": "Delivery Address",
+  "DA_PINCODE_LABEL": "Delivery Pincode",
+  "DA_CITY_LABEL": "Delivery City",
+  "DA_STATE_LABEL": "Delivery State",
+  "DA_LOCALITY_LABEL": "Delivery Locality",
+  "DA_LANDMARK_LABEL": "Delivery Landmark",
+  "DA_FLOOR_LABEL": "Delivery Floor",
+  "DA_LIFT_STATUS_LABEL": "Delivery Lift Status",
+  "PU_ADDRESS_LABEL": "Pick Up Address",
+  "PU_PINCODE_LABEL": "Pick Up Pincode",
+  "PU_CITY_LABEL": "Pick Up City",
+  "PU_STATE_LABEL": "Pick Up State",
+  "PU_LOCALITY_LABEL": "Pick Up Locality",
+  "PU_LANDMARK_LABEL": "Pick Up Landmark",
+  "PU_FLOOR_LABEL": "Pick Up Floor",
+  "PU_LIFT_STATUS_LABEL": "Pick Up Lift Status",
+  "PICKUP_ADDRESS_DETAILS_LABEL": "Pick Up Address Details",
+  "DELIVERY_ADDRESS_DETAILS_LABEL": "Delivery Address Details",
+  "FREIGHT_DETAILS_LABEL": "Freight Details",
+  "VEHICLE_FREIGHT_DETAILS_LABEL": "Vehicle Freight Details",
+  "BILLING_DETAILS_LABEL": "Billing Details",
+  "REMARKS_LABEL":"Remarks",
+  "ITEMS_PARTICULARS_NAME_LABEL":"Item/Particular Name",
+  "ADD_ITEMS_PARTICULAR_LABEL":"Add Item/Particular",
+  "LIFT_STATUS_LIST": [
+    {
+      "value": "Yes",
+      "label": "Yes"
+    },
+    {
+      "value": "No",
+      "label": "No"
+    }
+  ],
+  "MODULE_FEAURE_MAPPING_LABEL": "Module Feature Mapping",
+  "SUB_MOBULE_NAME_LABEL": "Sub Module Name",
+  "CONTACT_TYPE_LIST": [
+    {
+      "value": "Email Address",
+      "label": "Email Address"
+    },
+    {
+      "value": "Phone Number",
+      "label": "Phone Number"
+    },
+    {
+      "value": "Fax Number",
+      "label": "Fax Number"
+    },
+    {
+      "value": "Website",
+      "label": "Website"
+    },
+    {
+      "value": "Social Media",
+      "label": "Social Media"
+    },
+    {
+      "value": "Toll Free Number",
+      "label": "Toll Free Number"
+    },
+    {
+      "value": "Mobile Number",
+      "label": "Mobile Number"
+    },
+    {
+      "value": "Other",
+      "label": "Other"
+    }
+  ],
+  "CONTACT_TYPE_LABEL": "Contact Type",
+  "DOCUMENT_TYPE_LABEL": "Document Type",
+  "CONTACT_LABEL": "Contact",
+  "DOCUMENT_NUMBER_LABEL": "Document Number",
+  "OTHER_LABEL": "Other",
+  "OTHER_DETAILS_LABEL": "Other Details",
+  "FOOTER_CONTENT_TYPE_LABEL": "Footer Content Type",
+  "SHOP_ACT_NO_LABEL":"Shop Act No.",
+  "ISO_NO_LABEL":"ISO No.",
+  "UDYAM_REGD_NO_LABEL":"Udyam Regd. No.",
+  "DOCUMENT_TYPE_LIST": [
+    {
+      "value": "GST Number",
+      "label": "GST Number"
+    },
+    {
+      "value": "ISO Certificate Number",
+      "label": "ISO Certificate Number"
+    },
+    {
+      "value": "Shop Act Number",
+      "label": "Shop Act Number"
+    },
+    {
+      "value": "MSME Regd. Number",
+      "label": "MSME Regd. Number"
+    },
+    {
+      "value": "IBA Approval Number",
+      "label": "IBA Approval Number"
+    },
+    {
+      "value": "Other",
+      "label": "Other"
+    }
+  ],
+  "CONTENT_TYPE_LIST": [
+    {
+      "value": "Terms of Service",
+      "label": "Terms of Service"
+    },
+    {
+      "value": "Terms and Conditions",
+      "label": "Terms and Conditions"
+    },
+    {
+      "value": "Notes",
+      "label": "Notes"
+    },
+    {
+      "value": "Remarks",
+      "label": "Remarks"
+    },
+    {
+      "value": "Other",
+      "label": "Other"
+    }
+  ],
+  "BUY_NOW_LABEL": "Buy Now",
+  "PLAN_DURATION_LIST": [
+    {
+      "value": "Monthly",
+      "label": "Monthly"
+    },
+    {
+      "value": "Half Yearly",
+      "label": "Half Yearly"
+    },
+    {
+      "value": "Yearly",
+      "label": "Yearly"
+    }
+  ],
+  "START_LABEL": "Auto",
+  "END_LABEL": "Manual",
+  
+  "QUOTATION_DATE_LABEL": "Quotation Date",
+  "DATE_OF_MOVING_LABEL": "Date of Moving",
+  "LOAD_TYPE_LIST": [
+    {
+      "value": "Part Load",
+      "label": "Part Load"
+    },
+    {
+      "value": "Full Load",
+      "label": "Full Load"
+    }
+  ],
+  "VEHICLE_LOAD_TYPE_LIST": [
+    {
+      "value": "In Sharing",
+      "label": "In Sharing"
+    },
+    {
+      "value": "Separate",
+      "label": "Separate"
+    }
+  ],
+  "FREIGHT_CHARGES_LABEL": "Freight Charges",
+  "VEHICLE_FREIGHT_CHARGES_LABEL": "Vehicle Freight Charges",
+  "PACKING_CHARGES_LABEL": "Packing Charges",
+  "LOADING_CHARGES_LABEL": "Loading Charges",
+  "UNLOADING_CHARGES_LABEL": "Unloading Charges",
+  "UNPACKING_CHARGES_LABEL": "Unpacking Charges",
+  "PACKING_MATERIAL_CHARGES_LABEL": "Packing Material Charges",
+  "PACKING_MATERIAL_MEASURING_UNIT_LABEL": "Packing Material Measuring Unit",
+  "PACKING_ITEM_LIST":[
+    {
+    "itemType": "Electronic Appliances",
+                          "itemList": [{
+                            "label":"CRT Television (TV)",
+                            "value":"CRT Television (TV)",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },{
+                            "label":"LED Television (TV)",
+                            "value":"LED Television (TV)",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },{
+                            "label":"LCD Television (TV)",
+                            "value":"LCD Television (TV)",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },
+                          {
+                            "label":"Refrigerator Single Door",
+                            "value":"Refrigerator Double Door",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },
+                          {
+                            "label":"Washing Machine Mannual",
+                            "value":"Washing Machine Mannual",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },{
+                            "label":"Washing Machine Automatic Top Load",
+                            "value":"Washing Machine Automatic Top Load",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },{
+                            "label":"Washing Machine Automatic Front Load",
+                            "value":"Washing Machine Automatic Front Load",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },{
+                            "label":"Microwave",
+                            "value":"Microwave",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },{
+                            "label":"OTG",
+                            "value":"OTG",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },{
+                            "label":"Cooking Range",
+                            "value":"Cooking Range",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },
+                          {
+                            "label":"Air Condition Window",
+                            "value":"Air Condition Window",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },
+                          {
+                            "label":"Air Condition Split",
+                            "value":"Air Condition Split",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },
+                          {
+                            "label":"Window Cooler",
+                            "value":"Window Cooler",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },{
+                            "label":"Room Cooler",
+                            "value":"Room Cooler",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },
+                          {
+                            "label":"Celing Fan",
+                            "value":"Celing Fan",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },{
+                            "label":"Table Fan",
+                            "value":"Table Fan",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          }]
+  },
+  {
+    "itemType": "Furniture",
+                          "itemList": [{
+                            "label":"1 Seater Sofa Set",
+                            "value":"1 Seater Sofa Set",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },{
+                            "label":"2 Seater Sofa Set",
+                            "value":"2 Seater Sofa Set",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },{
+                            "label":"3 Seater Sofa Set",
+                            "value":"3 Seater Sofa Set",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },
+                          {
+                            "label":"4 Seater Sofa Set",
+                            "value":"4 Seater Sofa Set",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },
+                          {
+                            "label":"5 Seater Sofa Set",
+                            "value":"5 Seater Sofa Set",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },{
+                            "label":"Futon",
+                            "value":"Futon",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },{
+                            "label":"King Bed",
+                            "value":"King Bed",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },{
+                            "label":"Queen Bed",
+                            "value":"Queen Bed",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },{
+                            "label":"Single Bed",
+                            "value":"Single Bed",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },{
+                            "label":"Double Bed",
+                            "value":"Double Bed",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },
+                          {
+                            "label":"Bunk Bed",
+                            "value":"Bunk Bed",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },
+                          {
+                            "label":"Craddle",
+                            "value":"Craddle",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },
+                          {
+                            "label":"Roll Away Bed",
+                            "value":"Roll Away Bed",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },{
+                            "label":"Mattress",
+                            "value":"Mattress",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },
+                          {
+                            "label":"Table",
+                            "value":"Table",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },{
+                            "label":"Side Table",
+                            "value":"Side Table",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          }]
+  },{
+    "itemType": "Vehicles",
+                          "itemList": [{
+                            "label":"Scooty/Scooter",
+                            "value":"Scooty/Scooter",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },{
+                            "label":"Bike",
+                            "value":"Bike",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },{
+                            "label":"Premium/Sports Bike",
+                            "value":"Premium/Sports Bike",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },
+                          {
+                            "label":"Hatchback Car",
+                            "value":"Hatchback Car",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },
+                          {
+                            "label":"Sedan Car",
+                            "value":"Sedan Car",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },{
+                            "label":"Jeep",
+                            "value":"Jeep",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          },{
+                            "label":"SUV/MUV",
+                            "value":"SUV/MUV",
+                            "cft":0,
+                            "qty":"",
+                            "amount":""
+                          }]
+  },{
+    "itemType": "Others",
+    "itemList":[]
+  }
+],
+  "PACKING_MATERIAL_TYPE_LIST_LABEL":[{
+    "label":"Labour",
+    "value":"Labour"
+  },
+  {
+    "label":"Packing Tapes",
+    "value":"Packing Tapes"
+  },{
+    "label":"Bubble Wraps",
+    "value":"Bubble Wraps"
+  },{
+    "label":"Corrugate Sheet",
+    "value":"Corrugate Sheet"
+  },{
+    "label":"Water Proof Lamination",
+    "value":"Water Proof Lamination"
+  },{
+    "label":"Polystyrine (Thermocol)",
+    "value":"Polystyrine (Thermocol)"
+  },{
+    "label":"Cartoon Boxes",
+    "value":"Cartoon Boxes"
+  },{
+    "label":"Air Bubble",
+    "value":"Air Bubble"
+  },{
+    "label":"News Paper",
+    "value":"News Paper"
+  },{
+    "label":"Foam Sheet",
+    "value":"Foam Sheet"
+  },
+{
+  "label":"Wooden Box",
+  "value":"Wooden Box"
+}],
+"CFT_LABEL":"CFT",
+"QTY_UNIT_LABEL":"Quantity/Unit",
+"ADD_OTHER_ITEMS_LABEL":"Add Other Items",
+"QUANTITY_LABEL":"Quantity",
+"VALUE_OF_GOODS":"Value of Goods",
+  "PACKING_MATERIAL_MEASURING_UNIT_LIST_LABEL": [
+    {
+      "label": "No.",
+      "value": "No."
+    },
+    {
+      "label": "Ltr",
+      "value": "Ltr"
+    },
+    {
+      "label": "Bundle",
+      "value": "Bundle"
+    },
+    {
+      "label": "Boxes",
+      "value": "Boxes"
+    },
+    {
+      "label": "Mtr.",
+      "value": "Mtr."
+    },
+    {
+      "label": "Kg",
+      "value": "Kg"
+    },
+    {
+      "label": "Pallets",
+      "value": "Pallets"
+    }
+  ],
+  "CHARGES_TYPE_LIST": [
+    {
+      "label": "Not Required",
+      "value": "Not Required"
+    },
+    {
+      "label": "Included",
+      "value": "Included"
+    },
+    {
+      "label": "Additional",
+      "value": "Additional"
+    }
+  ],
+  "LOADING_LIST": [
+    {
+      "label": "Not Required",
+      "value": "Not Required"
+    },
+    {
+      "label": "Included",
+      "value": "Included"
+    },
+    {
+      "label": "Additional",
+      "value": "Additional"
+    },
+    {
+      "label": "Loading By Party",
+      "value": "Loading By Party"
+    }
+  ],
+  "UNLOADING_LIST": [
+    {
+      "label": "Not Required",
+      "value": "Not Required"
+    },
+    {
+      "label": "Included",
+      "value": "Included"
+    },
+    {
+      "label": "Additional",
+      "value": "Additional"
+    },
+    {
+      "label": "Unloading By Party",
+      "value": "Unloading By Party"
+    }
+  ],
+  "OTHER_CHARGES_LIST": [
+    {
+      "label": "Stationary Charge",
+      "value": "Stationary Charge"
+    },
+    {
+      "label": "Octroi Green Tax",
+      "value": "Octroi Green Tax"
+    },
+    {
+      "label": "Toll Tax Charges",
+      "value": "Toll Tax Charges"
+    },
+    {
+      "label": "Miscellaneous Charges",
+      "value": "Miscellaneous Charges"
+    },
+    {
+      "label": "Electrical Work",
+      "value": "Electrical Work"
+    },
+    {
+      "label": "Cleaning Work",
+      "value": "Cleaning Work"
+    }
+  ],
+  "OTHER_CHARGES_LABEL": "Other Charges",
+  "QTY_LABEL": "Qty.",
+  "RATE_PER_ITEM_LABEL": "Rate/Item",
+  "AMOUNT_LABEL": "Amount",
+  "VALUE_OF_GOOD_LABEL": "Value of Good",
+  "ADD_MORE_LABEL": "Add More",
+  "PART_LOAD_LABEL": "Part Load",
+  "FULL_LOAD_LABEL": "Full Load",
+  "IN_SHARING_LABEL": "In Sharing",
+  "SEPARATE_LABEL": "Separate",
+  "FREIGHT_IN_SHARING_LABEL": "Freight In Sharing",
+  "FREIGHT_SEPARATE_LABEL": "Freight Separate",
+  "ADVANCE_AMOUNT_LABEL": "Advance Amount",
+  "SURCHARGE_LABEL": "Surcharge",
+  "DISCOUNT_ON_QUOTATION_LABEL": "Discount On Quotation",
+  "GST_ON_QUOTATION_LABEL": "GST On Quotation",
+  "TRANSIT_INSURANCE_LABEL": "Transit Insurance",
+  "STORAGE_LABEL": "Storage Charges",
+  "SURCHARGE_TYPE_LIST": [
+    {
+      "label": "Required",
+      "value": "Required"
+    },
+    {
+      "label": "Not Required",
+      "value": "Not Required"
+    },
+    {
+      "label": "Extra",
+      "value": "Extra"
+    }
+  ],
+  "SURCHARGE_PERCENTAGE_LABEL": "Surcharge Percentage",
+  "GST_PERCENTAGE_LABEL": "GST Percentage",
+  "DISCOUNT_PERCENTAGE_LABEL": "Discount Percentage",
+  "FLAT_DISCOUNT_LABEL": "Flat Discount",
+  "DISCOUNT_TYPE_LIST": [
+    {
+      "label": "Discount @%",
+      "value": "Discount @%"
+    },
+    {
+      "label": "Flat Discount",
+      "value": "Flat Discount"
+    },
+    {
+      "label": "Not Required",
+      "value": "Not Required"
+    }
+  ],
+  "GST_ON_QUOTATION_TYPE_LIST": [
+    {
+      "label": "With GST",
+      "value": "With GST"
+    },
+    {
+      "label": "Without GST",
+      "value": "Without GST"
+    },
+    {
+      "label": "GST Exempted",
+      "value": "GST Exempted"
+    },
+    {
+      "label": "GST Extra",
+      "value": "GST Extra"
+    }
+  ],
+  "GST_TYPE_LIST": [
+    {
+      "label": "CGST/SGST",
+      "value": "CGST/SGST"
+    },
+    {
+      "label": "IGST",
+      "value": "IGST"
+    }
+  ],
+  "GST_TYPE_LABEL": "GST Type",
+  "IS_REQUIRED_LIST": [
+    {
+      "label": "Not Required",
+      "value": "Not Required"
+    },
+    {
+      "label": "Required",
+      "value": "Required"
+    }
+  ],
+  "TRANSIT_INSURANCE_TYPE_LIST": [
+    {
+      "label": "Optional",
+      "value": "Optional"
+    },
+    {
+      "label": "Additional From Freight",
+      "value": "Additional From Freight"
+    },
+    {
+      "label": "Included In Freight",
+      "value": "Included In Freight"
+    },
+    {
+      "label": "Extra",
+      "value": "Extra"
+    }
+  ],
+  "TRANSIT_INSURANCE_GST_PERCENTAGE_LABEL": "Transit Insurance GST Percentage",
+  "TRANSIT_INSURANCE_PERCENTAGE_LABEL": "Transit Insurance Percentage",
+  "STORAGE_CHARGES_LABEL": "Storage Charges",
+  "STORAGE_CHARGES_TYPE_LIST": [
+    {
+      "label": "Pay Per Day",
+      "value": "Pay Per Day"
+    },
+    {
+      "label": "Minimum Fixed Charges",
+      "value": "Minimum Fixed Charges"
+    },
+    {
+      "label": "Charges During Period",
+      "value": "Charges During Period"
+    }
+  ],
+  "STORAGE_FROM_LABEL": "Storage From",
+  "STORAGE_TO_LABEL": "Storage To",
+  "QUESTION_ONE_LABEL" : "Is there easy access for load & unloading at origin & destination?",
+  "QUESTION_TWO_LABEL" : "Should any items be got down through balcony etc.",
+  "QUESTION_THREE_LABEL" : "Are there any restrictions for loading/unloading at origin/destination?",
+  "QUESTION_FOUR_LABEL" : "Do you have any special needs or concern?",
+  "YES_OR_NO_LIST" : [{
+    "label": "Yes",
+    "value": "Yes"
+  }, {
+    "label": "No",
+    "value": "No"
+  }],
+  "REPLY_LABEL" : "Reply to this question",
+  "AUTH_ROLE_LIST_WITH_MOBILE_NUMBER":["vendor",  "admin" , "super admin"],
+  "SUPER_ROLE_LIST":["admin" , "super admin"]
+}

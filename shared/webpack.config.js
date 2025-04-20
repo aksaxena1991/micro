@@ -39,6 +39,8 @@ module.exports = {
         './fr.json': './src/languages/fr.json',
         './genericInput': './src/common-components/genericInput',
         './account': './src/services/account',
+        './store': './src/store/index',
+        './store/selectors': './src/store/selectors',
       },
       shared: {
         react: { singleton: true, requiredVersion: '^18.0.0' },
@@ -48,6 +50,9 @@ module.exports = {
         '@emotion/styled': { singleton: true, requiredVersion: '^11.0.0' },
         'randexp': { singleton: true, requiredVersion: '^0.5.3' },
         'axios': { singleton: true, requiredVersion: '^1.8.4' },
+        'redux-saga': { singleton: true, requiredVersion: '^1.3.0' },
+        '@reduxjs/toolkit': { singleton: true, requiredVersion: '^2.7.0' },
+        'redux-persist': { singleton: true, requiredVersion: '^6.0.0' },
       }
     }),
     new HtmlWebpackPlugin({

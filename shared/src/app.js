@@ -1,14 +1,11 @@
 import React from 'react';
-import GenericInput from './common-components/genericInput';
-
-
-
+import GenericCheckbox from './common-components/genericCheckbox';
 function App() {
-  
+
   return (
     <React.Suspense fallback={<div>Loading...</div>}>
-      <GenericInput />
-      <p>This is the Host App 👋</p>
+      <GenericCheckbox />
+      <p>This is the Shared App 👋</p>
     </React.Suspense>
   );
 }

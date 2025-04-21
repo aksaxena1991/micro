@@ -11,10 +11,13 @@ module.exports = {
         publicPath: 'auto',
         clean: true,
     },
+    resolve: {
+        extensions: ['.js', '.jsx', '.json'], // <-- add this!
+    },
     module: {
         rules: [
             {
-                test: /\.js$/,
+                test: /\.(js|jsx)$/, // ensure JSX is supported
                 exclude: /node_modules/,
                 use: {
                     loader: 'babel-loader',

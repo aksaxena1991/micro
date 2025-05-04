@@ -1,5 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ModuleFederationPlugin = require('webpack/lib/container/ModuleFederationPlugin');
+const path = require("path")
 module.exports = {
     entry: './src/index.js',
     mode: 'development',
@@ -12,7 +13,11 @@ module.exports = {
         clean: true,
     },
     resolve: {
-        extensions: ['.js', '.jsx', '.json'], // <-- add this!
+        alias: {
+            '@pages': path.resolve(__dirname, 'src/pages'),
+            '@validators': path.resolve(__dirname, 'src/validators'),
+        },
+        extensions: ['.js', '.jsx', '.json'],
     },
     module: {
         rules: [
@@ -30,6 +35,14 @@ module.exports = {
                 test: /\.json$/,
                 type: 'javascript/auto',
                 use: 'raw-loader',
+            },
+            {
+                test: /\.svg$/,
+                use: ['@svgr/webpack'], // for SVG as component
+            },
+            {
+                test: /\.svg$/,
+                type: 'Assets/*'
             }
         ]
     },
@@ -51,6 +64,11 @@ module.exports = {
                 'redux-saga': { singleton: true, requiredVersion: '^1.3.0' },
                 '@reduxjs/toolkit': { singleton: true, requiredVersion: '^2.7.0' },
                 'redux-persist': { singleton: true, requiredVersion: '^6.0.0' },
+                'react-router-dom': { singleton: true, requiredVersion: '^7.5.1' },
+                'formik': { singleton: true, requiredVersion: '^2.4.6' },
+                'react-redux': { singleton: true, requiredVersion: '^9.2.0' },
+                'react-icons': { singleton: true, requiredVersion: '^5.5.0' },
+
             }
         }),
         new HtmlWebpackPlugin({

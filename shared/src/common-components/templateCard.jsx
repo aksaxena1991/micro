@@ -1,7 +1,7 @@
 import { AspectRatio } from "@mui/joy";
 import { Card, Grid, Typography } from "@mui/material";
 import { Fragment } from "react";
-import image from "../../Assets/Images/loginImg.svg";
+import image from "../asset/images/loginImg.svg";
 
 const TemplateCard = () => {
   return (

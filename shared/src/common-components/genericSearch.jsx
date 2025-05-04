@@ -1,6 +1,6 @@
-import { Fragment } from "react";
 import SearchIcon from "@mui/icons-material/Search";
-import { Search, SearchIconWrapper, StyledInputBase } from "../styles/styles";
+import { Fragment } from "react";
+import { Search, SearchIconWrapper, StyledInputBase } from "../styles";
 const GenericSearch = (props) => {
   return (
     <Fragment>

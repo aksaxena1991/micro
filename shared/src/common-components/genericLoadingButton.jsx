@@ -1,4 +1,4 @@
-import LoadingButton from "@mui/lab/LoadingButton";
+import {LoadingButton} from "@mui/lab";
 
 const GenericLoadingButton = (props) => {
   const { children, sx } = props;

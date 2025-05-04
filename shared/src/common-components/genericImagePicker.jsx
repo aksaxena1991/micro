@@ -1,7 +1,7 @@
+import OBJ from "@languages/fr.json";
 import CloudUploadOutlinedIcon from "@mui/icons-material/CloudUploadOutlined";
 import { Box, Typography } from "@mui/material";
 import { Fragment, useRef, useState } from "react";
-import OBJ from "../../languages/fr.json";
 
 const style = {
   padding: "8px",

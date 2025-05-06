@@ -22,14 +22,14 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.(js|jsx)$/, // ensure JSX is supported
+                test: /\.(js|jsx)$/, // handles JS & JSX
                 exclude: /node_modules/,
                 use: {
                     loader: 'babel-loader',
                     options: {
-                        presets: ['@babel/preset-env', '@babel/preset-react']
-                    }
-                }
+                        presets: ['@babel/preset-env', '@babel/preset-react'],
+                    },
+                },
             },
             {
                 test: /\.json$/,
@@ -57,8 +57,8 @@ module.exports = {
                 "./app": "./src/app"
             },
             shared: {
-                react: { singleton: true, requiredVersion: '^18.0.0' },
-                'react-dom': { singleton: true, requiredVersion: '^18.0.0' },
+                'react': { singleton: true, requiredVersion: '^18.2.0' },
+                'react-dom': { singleton: true, requiredVersion: '^18.2.0' },
                 'randexp': { singleton: true, requiredVersion: '^0.5.3' },
                 'axios': { singleton: true, requiredVersion: '^1.8.4' },
                 'redux-saga': { singleton: true, requiredVersion: '^1.3.0' },
@@ -68,6 +68,7 @@ module.exports = {
                 'formik': { singleton: true, requiredVersion: '^2.4.6' },
                 'react-redux': { singleton: true, requiredVersion: '^9.2.0' },
                 'react-icons': { singleton: true, requiredVersion: '^5.5.0' },
+                'yup': { singleton: true, requiredVersion: '^1.6.1' },
 
             }
         }),

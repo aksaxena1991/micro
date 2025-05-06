@@ -2,6 +2,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ModuleFederationPlugin = require('webpack/lib/container/ModuleFederationPlugin');
 const path = require("path");
 
+
 module.exports = {
   entry: './src/index.js',
   mode: 'development',
@@ -83,6 +84,7 @@ module.exports = {
       filename: 'remoteEntry.js',
       exposes: {
         './fr.json': './src/languages/fr.json',
+        './regular-expressions': './src/utils/regular-expressions',
         './genericInput': './src/common-components/genericInput',
         './companyDropdownComponent': './src/page-wrappers/companyDropdownComponent',
         './genericAutocomplete': './src/common-components/genericAutocomplete',
@@ -123,8 +125,8 @@ module.exports = {
         '@emotion/styled': { singleton: true, requiredVersion: '^11.11.0' },
         '@mui/icons-material': { singleton: true, requiredVersion: '^5.11.16' },
         '@mui/material': { singleton: true, requiredVersion: '^5.14.0' },
-        '@mui/x-data-grid': { singleton: true, requiredVersion: '^8.1.0' },
-        '@mui/x-date-pickers': { singleton: true, requiredVersion: '^8.1.0' },
+        '@mui/x-data-grid': { singleton: true, requiredVersion: '^6.17.0' },
+        '@mui/x-date-pickers': { singleton: true, requiredVersion: '^6.17.0' },
         '@reduxjs/toolkit': { singleton: true, requiredVersion: '^2.7.0' },
         'axios': { singleton: true, requiredVersion: '^1.8.4' },
         'dayjs': { singleton: true, requiredVersion: '^1.11.13' },

@@ -3,7 +3,7 @@ import {
   EMAIL_REGEX,
   MOBILE_REGEX,
   PASSWORD_REGEX
-} from "../../../utils/regular-expressions";
+} from "shared/regular-expressions";
 export const authInitial = {
   email: "",
   password: "",

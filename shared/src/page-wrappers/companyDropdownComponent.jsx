@@ -1,7 +1,7 @@
 import { Dialog, DialogContent, DialogTitle, Grid } from "@mui/material";
 import { memo } from "react";
-import OBJ from "../../languages/fr.json";
-import GenericDropdown from "../form-elements/genericDropdown";
+import OBJ from "../languages/fr.json";
+import GenericDropdown from "../common-components/genericDropdown";
 
 const CompanyDropdownComponent = memo(
   ({ open, setOpen, onCompanyChange, allCompanies }) => {

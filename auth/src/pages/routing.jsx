@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 import Layout from "../../common-components/page-elements/layout";
-import { useAuth } from "../../hooks/useAuth";
+import { useAuth } from "../hooks/useAuth";
 import Checkout from "./checkout/Checkout";
 import Login from "./login/login";
 import Registration from "./registration/Registration";

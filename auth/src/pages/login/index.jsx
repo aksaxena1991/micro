@@ -27,19 +27,19 @@ import { useNavigate } from "react-router-dom";
 import Logoimg from "shared/epackbookLogoBlue.svg";
 
 import CompanyDropdownComponent from "shared/companyDropdownComponent";
+import OBJ from "shared/fr.json";
 import GenericInput from "shared/genericInput";
 import GenericLoadingButton from "shared/genericLoadingButton";
-import { useAuth } from "../../../hooks/useAuth";
-import OBJ from "../../../languages/fr.json";
-import { getAuthState, getRoleState } from "../../../store/selectors";
+import { useAuth } from "../../hooks/useAuth";
+import { getAuthState, getRoleState } from "../../store/selectors";
 import {
   requestAuthDetails,
   requestLogin,
   requestVerifyOTP,
   resetAuth,
-} from "../../../store/slices/AuthSlice";
-import { requestCurrentCompany } from "../../../store/slices/CompanySlice";
-import { requestAllRole } from "../../../store/slices/RoleSlice";
+} from "../../store/slices/authSlice";
+import { requestCurrentCompany } from "../../store/slices/companySlice";
+import { requestAllRole } from "../../store/slices/roleSlice";
 import {
   authInitial,
   employeeAuthSchema,
@@ -246,6 +246,7 @@ const ForgotPasswordComponent = memo(
 
 const Login = () => {
   const { loggedIn } = useAuth();
+  
   const navigation = useNavigate();
   const [loginType, setLoginType] = useState(OBJ?.VENDOR);
   const [initialValue, setInitialValue] = useState(authInitial);
